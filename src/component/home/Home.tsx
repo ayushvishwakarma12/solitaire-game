@@ -7,9 +7,9 @@ const Home = () => {
       style={{
         background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${background}) center/cover no-repeat`,
       }}
-      className="w-full h-screen"
+      className="w-full min-h-screen"
     >
-      <div>
+      <div className="">
         <Pile />
       </div>
     </div>
